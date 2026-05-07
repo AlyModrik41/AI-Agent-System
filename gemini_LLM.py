@@ -11,7 +11,7 @@ from LLMcash.LLMcache import LLMCache
 import time
 from langchain__ import langchain_agent
 
-genai.configure(api_key="AIzaSyDOQdwu_NovzBjYTIVifIiZkZIxxsB9UkE")
+genai.configure(api_key="YOUR_API_KEY")
 
 user_input="Convert 300 USD TO EGP"
 
