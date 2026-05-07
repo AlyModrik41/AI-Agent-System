@@ -107,12 +107,12 @@ cd llm-agents-project
 pip install -r requirements.txt
 ```
 
-🔑 API Setup
+##🔑 API Setup
 import google.generativeai as genai
 
 genai.configure(api_key="YOUR_API_KEY")
 
-▶️ Usage
+##▶️ Usage
 
 Run Custom Agent
 run(user_input, mode="custom")
@@ -120,7 +120,7 @@ run(user_input, mode="custom")
 Run LangChain Agent
 run(user_input, mode="langchain")
 
-#📊 Example
+##📊 Example
 
 - Input
 - Convert 300 USD to EGP
@@ -130,14 +130,14 @@ run(user_input, mode="langchain")
 - Observation: 48.2
 - Final Answer: 300 USD = 14460 EGP
 
-#⚡ Performance Optimizations
+##⚡ Performance Optimizations
 
 LLM response caching (reduces API calls)
 FAISS memory retrieval (semantic context)
 Model fallback system (handles quota limits)
 Prompt optimization for faster reasoning
 
-#📈 CV Highlights
+##📈 CV Highlights
 
 - Built LLM-powered agents capable of tool calling for autonomous task execution
 - Implemented ReAct reasoning architecture from scratch
