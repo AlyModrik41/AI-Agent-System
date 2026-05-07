@@ -120,7 +120,7 @@ run(user_input, mode="custom")
 Run LangChain Agent
 run(user_input, mode="langchain")
 
-##📊 Example
+## 📊 Example
 
 - Input
 - Convert 300 USD to EGP
